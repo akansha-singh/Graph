@@ -61,7 +61,7 @@ class Graph{
         void bellmanford(T src){
             
         }
-        // to find out minimum spanning tree
+        // to find out minimum spanning tree 
         void prismsAlgo(T src){
             
         }
