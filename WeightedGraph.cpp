@@ -61,9 +61,30 @@ class Graph{
         void bellmanford(T src){
             
         }
-        // to find out minimum spanning tree 
+        void shortestpathinDirectedAcyclicGraph(){
+            
+        }
+        // to find out minimum spanning tree // minimize the wire length and make sure that all computers are connected maybe through intermediate computer
+        //given a weighted connected undirected graph
+        //spanning tree connects all the vertices
+        //spanning tree is something that is defined for unweighted graph
+        //is a greedy algo which maintains two sets 
+        //1st set of vertices are set f vertices which are already incuded in the msp, and other set is remaining vertices 
+        //and the idea of the prism algo is to find that connects the current mst with the other edges.
         void prismsAlgo(T src){
             
+        }
+        void kosaraju(){
+
+        }
+        void kruskalAlgo(){
+
+        }
+        void BridgesinGraph(){
+
+        }
+        void TarjansAlgo(){
+
         }
 };
 int main() {
